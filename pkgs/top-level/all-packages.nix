@@ -624,6 +624,8 @@ with pkgs;
 
   domine = callPackage ../tools/misc/domine { };
 
+  dpp = callPackage ../development/libraries/dpp { };
+
   dsq = callPackage ../tools/misc/dsq { };
 
   dt = callPackage ../tools/text/dt { };
